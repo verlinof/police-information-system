@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="outputSortingForm">
+  <grid id="27dc6" binding="outputSortingPanel" layout-manager="GridLayoutManager" row-count="17" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="551" height="449"/>
+    </constraints>
+    <properties>
+      <background color="-4473925"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b28f0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="20" style="1"/>
+          <text value="Halaman Sorting"/>
+        </properties>
+      </component>
+      <scrollpane id="272ab" binding="JsDataTable">
+        <constraints>
+          <grid row="1" column="3" row-span="16" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="34944" class="javax.swing.JTable" binding="dataTable">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="c4a37" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cari berdasarkan kasus"/>
+        </properties>
+      </component>
+      <component id="294c5" class="javax.swing.JButton" binding="BtnSearch">
+        <constraints>
+          <grid row="7" column="0" row-span="9" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="4f349" class="javax.swing.JButton" binding="BtnKembali">
+        <constraints>
+          <grid row="7" column="2" row-span="9" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Kembali"/>
+        </properties>
+      </component>
+      <vspacer id="d4245">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="626b2" class="javax.swing.JComboBox" binding="CbCariKasus">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Semua Kasus"/>
+            <item value="Pembunuhan"/>
+            <item value="Pencurian"/>
+            <item value="Kejahatan Siber"/>
+            <item value="Kenakalan Remaja"/>
+            <item value="Pelecehan Seksual"/>
+            <item value="Korupsi"/>
+          </model>
+        </properties>
+      </component>
+      <vspacer id="b1ddd">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ddbbc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="police.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="85988">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

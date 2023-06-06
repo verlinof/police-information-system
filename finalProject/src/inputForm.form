@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="inputForm">
+  <grid id="27dc6" binding="InputGUII" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="300"/>
+    </constraints>
+    <properties>
+      <background color="-4473925"/>
+      <font name="Comic Sans MS" size="14" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ded55" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="police.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5df1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="26" style="1"/>
+          <text value="Information System"/>
+        </properties>
+      </component>
+      <component id="5211c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="14" style="1"/>
+          <text value="NIK"/>
+        </properties>
+      </component>
+      <component id="40d6e" class="javax.swing.JTextField" binding="tfNIK">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1973791"/>
+          <font name="Comic Sans MS" size="14" style="1"/>
+        </properties>
+      </component>
+      <component id="6aef0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="14" style="1"/>
+          <text value="Nama"/>
+        </properties>
+      </component>
+      <component id="9c9ed" class="javax.swing.JTextField" binding="tfNama">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1973791"/>
+          <font name="Comic Sans MS" size="14" style="1"/>
+        </properties>
+      </component>
+      <component id="4a6e1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="14" style="1"/>
+          <text value="Jenis Kelamin"/>
+        </properties>
+      </component>
+      <component id="2c4e8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="14" style="1"/>
+          <text value="Jenis Kasus"/>
+        </properties>
+      </component>
+      <component id="88d2d" class="javax.swing.JComboBox" binding="tfJK">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Pria"/>
+            <item value="Wanita"/>
+          </model>
+        </properties>
+      </component>
+      <component id="5ead1" class="javax.swing.JComboBox" binding="tfKasus">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Pilih Kasus"/>
+            <item value="Pembunuhan"/>
+            <item value="Pencurian"/>
+            <item value="Kejahatan Siber"/>
+            <item value="Kenakalan Remaja"/>
+            <item value="Pelecehan Seksual"/>
+            <item value="Korupsi"/>
+          </model>
+        </properties>
+      </component>
+      <component id="5e4a4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="14" style="1"/>
+          <text value="Deskripsi Kasus"/>
+        </properties>
+      </component>
+      <component id="810c6" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2104859"/>
+          <font name="Comic Sans MS" size="14" style="1"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="16561" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2104859"/>
+          <font name="Comic Sans MS" size="14" style="1"/>
+          <text value="Kembali"/>
+        </properties>
+      </component>
+      <component id="3947d" class="javax.swing.JTextField" binding="tfdeskripsi">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
